@@ -1,0 +1,52 @@
+<name> Request Docking
+
+# Docking request macro.
+# Requires that the station be targeted.
+# Caution: Running this a second time will cancel the docking request.
+# Version 1.0
+
+####
+
+# Request docking permission
+
+<press> 1
+<delay> 100
+
+<press> e
+<delay> 100
+
+<press> e
+<delay> 100
+
+<press> space
+<delay> 100
+
+<press> s
+<delay> 100
+
+<press> space
+<delay> 100
+
+<press> q
+<delay> 100
+
+<press> q
+<delay> 100
+
+# Reset to 1st tab (so other macros can expect this known state)
+<press> 1
+<delay> 100
+
+####
+
+# Activate landing lights
+
+<press> insert
+<delay> 100
+
+####
+
+# Activate landing gear
+
+<press> x
+<delay> 100
