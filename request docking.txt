@@ -3,37 +3,47 @@
 # Docking request macro.
 # Requires that the station be targeted.
 # Caution: Running this a second time will cancel the docking request.
-# Version 1.0
+# Version 1.1
 
 ####
 
 # Request docking permission
 
+# Mode Switches -> Target Panel
 <press> 1
 <delay> 100
 
+# Interface Mode -> Next Panel Tab
 <press> e
 <delay> 100
 
+# Interface Mode -> Next Panel Tab
 <press> e
 <delay> 100
 
+# Interface Mode -> UI Panel Select
 <press> space
 <delay> 100
 
+# Interface Mode -> UI Panel Down
 <press> s
 <delay> 100
 
+# Interface Mode -> UI Panel Select
 <press> space
 <delay> 100
 
+# reset to the first panel tab so other macros can work
+
+# Interface Mode -> Previous Panel Tab
 <press> q
 <delay> 100
 
+# Interface Mode -> Previous Panel Tab
 <press> q
 <delay> 100
 
-# Reset to 1st tab (so other macros can expect this known state)
+# Mode Switches -> Target Panel (already there, so this returns to main screen)
 <press> 1
 <delay> 100
 
@@ -41,6 +51,7 @@
 
 # Activate landing lights
 
+# Miscellaneous -> Ship Lights (For xbox one default options, the keyboard [insert] is unset. set it)
 <press> insert
 <delay> 100
 
@@ -48,5 +59,6 @@
 
 # Activate landing gear
 
+# Miscellaneous -> Landing Gear
 <press> x
 <delay> 100
